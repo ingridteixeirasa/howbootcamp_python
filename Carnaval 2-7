@@ -1,0 +1,24 @@
+###
+# Excercícios propostos - Diversão de Carnaval
+# How Bootcamp - Python
+# Autora: Ingrid Teixeira da Silva Alves
+# Exercício 2-7
+###
+
+lista_01 = ["1", "2", "3", "4"]
+
+lista_int = [ ]
+lista_str = [ ]
+
+for item in lista_01:
+    lista_int.append(int(item))
+lista_01 = lista_int
+
+print ("\n")
+print(lista_01)
+
+for item in lista_int:
+    lista_str.append(str(item))
+lista_01 = lista_str
+
+print(lista_01)
